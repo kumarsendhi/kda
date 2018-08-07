@@ -27,7 +27,7 @@ namespace Hello
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World! trying CI/CD");
             });
         }
     }
